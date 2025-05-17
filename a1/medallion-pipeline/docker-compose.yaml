@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  pyspark:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+      - ./datamart:/app/datamart
+    environment:
+      - PYSPARK_PYTHON=/usr/bin/python3
+      - PYSPARK_DRIVER_PYTHON=/usr/bin/python3

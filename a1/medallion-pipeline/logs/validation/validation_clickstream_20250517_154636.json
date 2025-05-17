@@ -1,0 +1,9 @@
+{
+  "source": "clickstream",
+  "row_count": 215376,
+  "missing_columns": [],
+  "null_counts": {
+    "snapshot_date": 215376
+  },
+  "validation_timestamp": "2025-05-17T15:46:34.366414"
+}

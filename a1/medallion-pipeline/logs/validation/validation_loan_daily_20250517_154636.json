@@ -1,0 +1,7 @@
+{
+  "source": "loan_daily",
+  "row_count": 137500,
+  "missing_columns": [],
+  "null_counts": {},
+  "validation_timestamp": "2025-05-17T15:46:21.693861"
+}

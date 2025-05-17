@@ -1,0 +1,43 @@
+{
+  "pipeline_run": {
+    "timestamp": "2025-05-17T15:46:36.022824",
+    "runtime_seconds": 25.663955,
+    "tables_processed": 4,
+    "total_rows_processed": 377876
+  },
+  "table_summaries": [
+    {
+      "source": "loan_daily",
+      "row_count": 137500,
+      "missing_columns": [],
+      "null_counts": {},
+      "validation_timestamp": "2025-05-17T15:46:21.693861"
+    },
+    {
+      "source": "financials",
+      "row_count": 12500,
+      "missing_columns": [],
+      "null_counts": {
+        "Type_of_Loan": 1426,
+        "snapshot_date": 12500
+      },
+      "validation_timestamp": "2025-05-17T15:46:27.037115"
+    },
+    {
+      "source": "attributes",
+      "row_count": 12500,
+      "missing_columns": [],
+      "null_counts": {},
+      "validation_timestamp": "2025-05-17T15:46:29.290791"
+    },
+    {
+      "source": "clickstream",
+      "row_count": 215376,
+      "missing_columns": [],
+      "null_counts": {
+        "snapshot_date": 215376
+      },
+      "validation_timestamp": "2025-05-17T15:46:34.366414"
+    }
+  ]
+}

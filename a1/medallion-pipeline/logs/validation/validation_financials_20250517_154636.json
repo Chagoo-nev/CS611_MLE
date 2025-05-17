@@ -1,0 +1,10 @@
+{
+  "source": "financials",
+  "row_count": 12500,
+  "missing_columns": [],
+  "null_counts": {
+    "Type_of_Loan": 1426,
+    "snapshot_date": 12500
+  },
+  "validation_timestamp": "2025-05-17T15:46:27.037115"
+}

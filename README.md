@@ -55,7 +55,7 @@ medallion-pipeline/
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/medallion-pipeline.git
-   cd medallion-pipeline
+   cd a1/medallion-pipeline
    ```
 
 2. Place data files in the `data/` directory.

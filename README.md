@@ -1,5 +1,7 @@
 # Loan Default Prediction: Medallion Architecture Data Pipeline（a1）
 
+Link:https://github.com/Chagoo-nev/CS611_MLE
+
 This project implements a complete data processing pipeline following the Medallion Architecture (Bronze, Silver, Gold layers) to prepare data for loan default prediction. The system ingests, transforms, and structures data from multiple sources to build a comprehensive feature table for machine learning.
 
 ## Architecture Overview

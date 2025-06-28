@@ -1,0 +1,40 @@
+# Core Data Science Stack
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+
+# Big Data Processing
+pyspark
+
+# Machine Learning
+xgboost
+
+# Progress Bars and CLI Tools
+tqdm
+
+# Airflow Dependencies (ensure compatibility)
+apache-airflow==2.10.2
+
+# Additional ML/Data Tools
+mlflow                    # Model tracking and registry
+great-expectations        # Data validation and quality checks
+
+# File Processing
+openpyxl                  # Excel file handling (if needed)
+
+# Utilities
+python-dateutil           # Date parsing utilities
+pytz                      # Timezone handling
+
+# 更多ML工具
+lightgbm==4.3.0                  # 另一个梯度提升库
+optuna                    # 超参数优化
+shap                      # 模型解释性
+
+# 数据可视化增强
+plotly                    # 交互式图表
+
+imbalanced-learn

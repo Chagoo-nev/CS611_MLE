@@ -1,0 +1,219 @@
+tree
+version=v4
+num_class=1
+num_tree_per_iteration=1
+label_index=0
+max_feature_idx=23
+objective=binary sigmoid:1
+feature_names=Age age_group occupation_category Annual_Income Monthly_Inhand_Salary Num_Bank_Accounts Num_Credit_Card Interest_Rate Num_of_Loan Delay_from_due_date Num_of_Delayed_Payment Changed_Credit_Limit Num_Credit_Inquiries Outstanding_Debt Credit_Utilization_Ratio Credit_History_Age Total_EMI_per_month Amount_invested_monthly Monthly_Balance debt_to_income_ratio monthly_debt_service_ratio investment_rate credit_utilization_category financial_risk_score
+feature_infos=[14:56] -1:1:0:4:2:3 -1:3:5:0:1:4:2 [7005.93017578125:165774.5625] [333.5966796875:13627.169921875] [-1:50] [0:21] [1:99] [0:9] [-5:67] [0:28] [-6.4899997711181641:33.740001678466797] [0:2262] [0.54000002145767212:4579.43994140625] [20.10076904296875:47.178447723388672] -1:83:115:126:112:142:93:86:87:102:105:109:124:127:150:88:94:106:111:118:58:73:122:107:110:121:98:113:117:119:130:149:253:337:346:82:97:101:167:231:273:276:279:33:48:85:100:146:148:159:191:328:74:90:103:123:166:169:215:227:242:296:359:365:43:46:125:129:147:152:181:197:199:237:248:352:364:14:27:30:50:51:95:99:163:168:183:188:205:219:241:269:274:310:311:341:357:362:379:18:20:29:56:66:81:114:155:228:285:289:292:298:339:343:350:369:380:59:156:190:192:194:198:217:244:256:275:281:287:295:301:303:309:336:349:361:363:371:374:375:16:24:39:44:60:67:68:79:89:91:144:157:161:165:204:216:226:252:293:300:338:351:367:372:377:17:21:23:25:32:40:42:53:54:55:69:76:145:153:160:170:172:178:182:213:214:233:236:240:250:271:277:297:340:342:344:345:355:360:19:36:64:65:158:171:174:175:184:186:193:203:207:209:218:222:229:230:238:249:251:254:272:280:284:286:288:291:335:348:354:356:28:31:35:38:62:70:180:210:211:223:232:246:299:304:305:353:373:376:8:37:63:77:140:154:164:176:187:195:225:234:329:368:6:41:75:136:179:206:239:245:257:265:283:307:308:334:1:10:13:52:78:134:196:202:327:9:12:47:71:131:135:137:201:221:258:259:263:324:333:3:5:22:141:268:294:302:322:326:331:332:11:132:143:260:261:267:317 [0:391.62936401367188] [0:489.45126342773438] [6.6121673583984375:1422.5675048828125] [4.1678899833641481e-06:0.56294429302215576] [0:0.19831211864948273] [0:0.15422043204307556] none [2:8]
+tree_sizes=3511 3362 3353
+
+Tree=0
+num_leaves=31
+num_cat=2
+split_feature=13 7 15 11 9 15 13 9 7 9 11 10 9 13 18 19 13 14 21 13 18 18 8 5 19 20 21 13 11 18
+split_gain=924.065 180.25 97.7836 73.2751 45.098 30.953 34.5383 27.9616 20.3547 19.3957 18.9338 18.7355 19.0287 18.7337 18.4373 17.0721 16.7597 16.542 15.9439 16.2871 22.3296 14.937 14.5013 14.3344 14.2668 14.0868 13.8578 13.4552 13.0544 12.8132
+threshold=1496.7850341796877 20.500000000000004 0 18.185000419616703 34.500000000000007 1 1238.894958496094 18.500000000000004 14.500000000000002 7.5000000000000009 9.1849999427795428 9.5000000000000018 14.500000000000002 1921.6550292968752 729.52145385742199 0.023430427536368374 565.03500366210949 33.546751022338874 0.043462404981255538 68.820003509521499 411.16920471191412 353.82002258300787 3.5000000000000004 4.5000000000000009 0.043683640658855445 0.031228520907461647 0.088424801826477065 429.66999816894537 11.144999980926515 329.36901855468756
+decision_type=8 10 9 10 2 9 10 2 8 2 10 10 2 8 10 10 10 2 10 10 10 10 10 8 10 8 10 10 10 10
+left_child=1 2 9 8 5 11 14 17 -2 15 -9 12 16 -5 18 -1 -4 -8 23 -20 24 -12 27 29 -21 -15 28 -11 -13 -7
+right_child=3 -3 4 13 -6 6 7 10 -10 22 21 26 -14 25 -16 -17 -18 -19 19 20 -22 -23 -24 -25 -26 -27 -28 -29 -30 -31
+leaf_value=-0.96736140351097377 -0.81030149815814778 -0.65326909779596076 -0.79495524447118215 -0.63361977023543137 -0.65564734507533906 -1.0659703292684928 -1.006761455142539 -0.73661370552376515 -0.66643700454572286 -0.75295006022772282 -0.99631244309022016 -0.92207728894035412 -0.75238227482942621 -0.92315583661387157 -0.91166360303685967 -0.78869927999568346 -0.96176051545879493 -0.87770911442149191 -0.81633899263017429 -1.0129294167956633 -0.83132042881074864 -0.77573940822894016 -0.72700626806538649 -1.0449765318801729 -0.90870952836527152 -0.77355999958223554 -0.78668638564131999 -0.85799480892652824 -1.0649419587650326 -0.95874152141574076
+leaf_weight=15.264276802539827 10.72631613910198 27.378969177603722 10.117203503847124 9.2339186519384366 5.4351863265037528 13.60351552069187 21.044770017266273 14.429606512188913 263.44335627555847 17.594918921589851 7.3215052634477598 24.246543347835541 15.958464920520781 6.9275838136672965 40.454873204231262 8.0746744126081449 14.45212662220001 18.561492085456848 7.9670788198709479 51.13078761100769 10.618720546364782 5.11239954829216 19.960234791040421 56.576340407133102 17.426555126905441 89.359396502375603 5.3154370933771125 42.139941766858101 8.5275768935680372 62.801156803965569
+leaf_count=66 36 66 33 21 13 67 96 42 658 53 33 98 48 28 161 26 62 70 27 235 37 16 57 271 69 281 17 154 42 268
+internal_value=-0.818924 -0.902821 -0.916181 -0.699334 -0.938814 -0.94296 -0.956203 -0.89284 -0.671984 -0.833964 -0.814236 -0.889401 -0.837219 -0.770665 -0.973486 -0.905644 -0.893217 -0.946054 -0.984896 -0.951449 -0.965295 -0.905925 -0.801344 -1.0067 -0.986302 -0.784203 -0.934598 -0.826646 -0.959248 -0.978119
+internal_weight=921.205 541.514 514.135 379.691 411.101 405.666 327.049 66.4698 274.17 103.034 26.8635 78.6174 40.5278 105.521 260.579 23.339 24.5693 39.6063 220.124 87.1431 79.1761 12.4339 79.6951 132.981 68.5573 96.287 38.0896 59.7349 32.7741 76.4047
+internal_count=3151 2127 2061 1024 1705 1692 1392 257 694 356 91 300 143 330 1135 92 95 166 974 368 341 49 264 606 304 309 157 207 140 335
+cat_boundaries=0 10 20
+cat_threshold=0 0 1536 543776838 2181038086 4544 67112961 201326792 536870912 32 0 0 1745092608 67502080 1210138624 8388610 134217920 286261264 3223846912 32784
+is_linear=0
+shrinkage=1
+
+
+Tree=1
+num_leaves=31
+num_cat=0
+split_feature=13 7 9 6 11 10 9 10 13 6 12 5 11 17 20 20 4 6 10 17 20 17 11 21 3 17 9 7 21 9
+split_gain=643.942 128.439 52.4675 47.4337 45.7706 39.8171 30.7903 50.9493 23.6807 21.709 16.9989 24.7302 21.4813 16.9024 19.317 18.2157 20.2823 16.8823 15.9807 17.1453 14.4943 14.4433 13.199 13.0091 12.8331 14.6233 17.1449 12.6507 12.5121 12.4799
+threshold=1496.7850341796877 20.500000000000004 34.500000000000007 2.5000000000000004 18.185000419616703 11.500000000000002 16.500000000000004 7.5000000000000009 1238.894958496094 6.5000000000000009 2.5000000000000004 4.5000000000000009 6.6949999332427987 111.14968109130861 0.0085009578615427035 0.020041613839566711 5115.3884277343759 5.5000000000000009 16.500000000000004 192.03045654296878 0.024671811610460285 155.10567474365237 17.690000534057621 0.051286919042468078 108758.32812500001 93.36035537719728 24.500000000000004 14.500000000000002 0.02438765857368708 20.500000000000004
+decision_type=8 10 2 8 10 8 2 10 10 10 2 8 10 10 10 10 10 8 10 8 10 10 10 8 8 8 2 8 10 2
+left_child=1 2 3 -1 27 6 9 -8 10 13 12 22 -7 -5 -15 16 -16 -10 19 -6 -11 -17 -12 29 25 -9 -27 -2 -14 -19
+right_child=4 -3 -4 5 18 8 7 24 17 20 11 -13 28 14 15 21 -18 23 -20 -21 -22 -23 -24 -25 -26 26 -28 -29 -30 -31
+leaf_value=-0.12798858408023284 0.10097496222688669 0.22194208596331061 0.25240617259641618 -0.034979079400037187 0.23342984092148031 -0.072523569437631122 0.21423235396788717 0.089724308424325272 -0.011171673124149063 0.052877795952125356 -0.021199612559816144 -0.094104860151873082 -0.010421128952186803 -0.036577462748247719 0.035250484456085973 0.10664446320295179 0.20381497200363974 -0.062794482120314299 0.1084266865261435 0.056854817929698813 0.2103509294460372 -0.049037185203937184 0.14248663634498387 0.17627339163207567 0.18324374428093934 -0.10216396151884205 0.052621257640377353 0.21210973282442325 0.13173081562627617 0.13075356347251255
+leaf_weight=24.877930074930191 11.256283566355703 30.356172859668732 8.7202078700065595 68.002517729997635 24.494571253657345 15.380571216344832 23.9110157340765 18.458385989069939 29.128488332033157 23.521790608763698 55.532829701900482 69.312824249267578 9.9516558200120944 26.938072577118874 14.326612740755083 9.0739179402589816 14.572412341833113 6.7453644275665301 80.439213484525681 7.3903174847364417 7.8617504239082328 16.870953977108002 5.2990751564502707 11.827943503856657 5.3517797440290442 14.126092165708544 14.227144554257391 290.86805081367493 15.71196700632572 6.3373719900846481
+leaf_count=122 36 66 18 294 56 70 61 63 118 88 234 330 42 115 55 30 40 30 249 25 22 74 17 34 15 67 52 658 51 19
+internal_value=0.0936966 0.0223714 0.0105721 0.0063469 0.187682 0.0133195 0.0402049 0.0935826 -0.0173472 0.0176966 -0.0355932 -0.0533011 0.0203058 0.00176132 0.0324389 0.066525 0.121004 0.0402279 0.132708 0.193121 0.0931861 0.00522712 -0.00656632 0.100535 0.0377829 0.0205846 -0.0242321 0.208037 0.0763935 0.0304837
+internal_weight=960.873 546.425 516.069 507.348 414.448 482.471 257.242 76.0744 225.228 181.168 171.189 130.145 41.0442 149.784 81.782 54.8439 28.899 54.0392 112.324 31.8849 31.3835 25.9449 60.8319 24.9107 52.1634 46.8116 28.3532 302.124 25.6636 13.0827
+internal_count=3151 2127 2061 2043 1024 1921 976 258 945 718 744 581 163 608 314 199 95 201 330 81 110 104 251 83 197 182 119 694 93 49
+is_linear=0
+shrinkage=0.1
+
+
+Tree=2
+num_leaves=31
+num_cat=0
+split_feature=13 7 6 10 21 13 18 10 13 0 4 3 21 8 0 6 16 8 18 7 0 6 3 3 16 3 6 4 6 6
+split_gain=475.309 96.7712 42.9894 30.0655 35.9606 28.4863 26.1042 17.877 24.5582 19.5891 21.3035 20.091 17.3934 17.3759 20.1147 16.7543 16.0078 16.8333 16.8904 15.8269 13.9475 14.8104 13.2188 18.3783 12.3942 13.4177 11.3516 10.5224 14.6566 10.4947
+threshold=1496.7850341796877 20.500000000000004 2.5000000000000004 5.5000000000000009 0.029016742482781414 2807.505004882813 428.87165832519537 13.500000000000002 1323.9099731445315 38.500000000000007 1354.9722900390627 18119.875000000004 0.070358209311962142 3.5000000000000004 41.500000000000007 5.5000000000000009 240.32469177246097 3.5000000000000004 474.47291564941412 15.500000000000002 19.500000000000004 9.5000000000000018 14068.899902343752 12571.715332031252 65.215740203857436 28962.509765625004 6.5000000000000009 3345.744995117188 5.5000000000000009 4.5000000000000009
+decision_type=8 10 8 8 10 8 10 10 10 10 10 10 8 10 10 8 8 10 8 8 8 8 10 10 8 10 10 10 10 10
+left_child=1 2 -1 6 16 19 29 9 22 11 -11 -6 20 14 -12 -10 17 18 -5 -2 -7 -22 23 -9 25 -16 -19 -8 -29 -4
+right_child=5 -3 3 4 7 12 27 8 15 10 13 -13 -14 -15 24 -17 -18 26 -20 -21 21 -23 -24 -25 -26 -27 -28 28 -30 -31
+leaf_value=-0.12264955771680347 0.10621992389887241 0.18780046171220005 -0.063928447356726245 -0.0802816263684345 -0.065260793478006771 0.17181383437208086 0.20049923439277373 -0.055513977804979721 -0.027856433032547021 0.22346422087009557 0.15410677639780498 0.051906150697680724 0.16456622769698112 0.16193330809925774 -0.095129448689667453 0.16453396806536935 -0.1008492296350664 0.01072736647059548 -0.0029739569288799311 0.18581870830572061 0.089599454188705754 -0.056195764109010365 -0.048236102048077531 0.18782929962356623 -0.13604331503249975 0.084938187926161868 0.14148886688347806 0.034808309892963428 0.16173169713545452 0.044885301420364884
+leaf_weight=23.443393647670746 28.830363377928734 32.191117823123932 13.421175613999365 48.676752761006355 20.027283728122711 18.370267286896706 11.654954999685286 6.107845336198805 6.8522337526083019 10.895132020115851 9.2439660131931287 53.184744223952293 61.195766746997833 13.923316344618796 6.1178877949714723 12.653605803847311 26.515603914856911 28.413465455174446 67.885896936058998 260.60500581562519 60.517189204692841 7.7168250530958167 61.408810377120972 6.0474254190921783 6.4543020874261847 12.155815333127974 8.6540221571922284 21.303996786475182 16.221077531576157 25.531660959124565
+leaf_count=122 80 66 60 230 88 43 31 27 29 27 27 194 146 40 29 32 126 115 276 553 173 29 274 17 32 42 25 80 44 94
+internal_value=0.0818211 0.0198372 0.00932115 0.0156361 0.00409063 0.159602 0.0685417 0.0307576 -0.00270649 0.0544118 0.0973952 0.0196732 0.12348 0.068103 0.028991 0.0966415 -0.0291699 -0.0166759 -0.0353846 0.177964 0.0941758 0.0729065 -0.0292802 0.0652817 -0.01781 0.0239191 0.0418234 0.116914 0.0902237 0.00706983
+internal_weight=986.221 548.985 516.794 493.351 405.218 437.235 88.1329 225.072 93.0699 132.002 58.7904 73.212 147.8 47.8953 33.972 19.5058 180.146 153.63 116.563 289.435 86.6043 68.234 73.5641 12.1553 24.728 18.2737 37.0675 49.18 37.5251 38.9528
+internal_count=3151 2127 2061 1939 1630 1024 309 858 379 479 197 282 391 170 130 61 772 646 506 633 245 202 318 44 103 71 140 155 124 154
+is_linear=0
+shrinkage=0.1
+
+
+end of trees
+
+feature_importances:
+Outstanding_Debt=11
+Num_Credit_Card=9
+Delay_from_due_date=8
+Interest_Rate=6
+Num_of_Delayed_Payment=6
+Changed_Credit_Limit=6
+Monthly_Balance=6
+investment_rate=6
+Annual_Income=5
+Amount_invested_monthly=4
+monthly_debt_service_ratio=4
+Age=3
+Monthly_Inhand_Salary=3
+Num_of_Loan=3
+Num_Bank_Accounts=2
+Credit_History_Age=2
+Total_EMI_per_month=2
+debt_to_income_ratio=2
+Num_Credit_Inquiries=1
+Credit_Utilization_Ratio=1
+
+parameters:
+[boosting: gbdt]
+[objective: binary]
+[metric: auc]
+[tree_learner: serial]
+[device_type: cpu]
+[data_sample_strategy: bagging]
+[data: ]
+[valid: ]
+[num_iterations: 1000]
+[learning_rate: 0.1]
+[num_leaves: 31]
+[num_threads: -1]
+[seed: 42]
+[deterministic: 0]
+[force_col_wise: 1]
+[force_row_wise: 0]
+[histogram_pool_size: -1]
+[max_depth: -1]
+[min_data_in_leaf: 20]
+[min_sum_hessian_in_leaf: 0.001]
+[bagging_fraction: 0.8]
+[pos_bagging_fraction: 1]
+[neg_bagging_fraction: 1]
+[bagging_freq: 5]
+[bagging_seed: 400]
+[bagging_by_query: 0]
+[feature_fraction: 0.8]
+[feature_fraction_bynode: 1]
+[feature_fraction_seed: 30056]
+[extra_trees: 0]
+[extra_seed: 12879]
+[early_stopping_round: 0]
+[early_stopping_min_delta: 0]
+[first_metric_only: 0]
+[max_delta_step: 0]
+[lambda_l1: 0.1]
+[lambda_l2: 0.1]
+[linear_lambda: 0]
+[min_gain_to_split: 0]
+[drop_rate: 0.1]
+[max_drop: 50]
+[skip_drop: 0.5]
+[xgboost_dart_mode: 0]
+[uniform_drop: 0]
+[drop_seed: 17869]
+[top_rate: 0.2]
+[other_rate: 0.1]
+[min_data_per_group: 100]
+[max_cat_threshold: 32]
+[cat_l2: 10]
+[cat_smooth: 10]
+[max_cat_to_onehot: 4]
+[top_k: 20]
+[monotone_constraints: ]
+[monotone_constraints_method: basic]
+[monotone_penalty: 0]
+[feature_contri: ]
+[forcedsplits_filename: ]
+[refit_decay_rate: 0.9]
+[cegb_tradeoff: 1]
+[cegb_penalty_split: 0]
+[cegb_penalty_feature_lazy: ]
+[cegb_penalty_feature_coupled: ]
+[path_smooth: 0]
+[interaction_constraints: ]
+[verbosity: -1]
+[saved_feature_importance_type: 0]
+[use_quantized_grad: 0]
+[num_grad_quant_bins: 4]
+[quant_train_renew_leaf: 0]
+[stochastic_rounding: 1]
+[linear_tree: 0]
+[max_bin: 255]
+[max_bin_by_feature: ]
+[min_data_in_bin: 3]
+[bin_construct_sample_cnt: 200000]
+[data_random_seed: 175]
+[is_enable_sparse: 1]
+[enable_bundle: 1]
+[use_missing: 1]
+[zero_as_missing: 0]
+[feature_pre_filter: 1]
+[pre_partition: 0]
+[two_round: 0]
+[header: 0]
+[label_column: ]
+[weight_column: ]
+[group_column: ]
+[ignore_column: ]
+[categorical_feature: 1,2,15,22]
+[forcedbins_filename: ]
+[precise_float_parser: 0]
+[parser_config_file: ]
+[objective_seed: 16083]
+[num_class: 1]
+[is_unbalance: 1]
+[scale_pos_weight: 1]
+[sigmoid: 1]
+[boost_from_average: 1]
+[reg_sqrt: 0]
+[alpha: 0.9]
+[fair_c: 1]
+[poisson_max_delta_step: 0.7]
+[tweedie_variance_power: 1.5]
+[lambdarank_truncation_level: 30]
+[lambdarank_norm: 1]
+[label_gain: ]
+[lambdarank_position_bias_regularization: 0]
+[eval_at: ]
+[multi_error_top_k: 1]
+[auc_mu_weights: ]
+[num_machines: 1]
+[local_listen_port: 12400]
+[time_out: 120]
+[machine_list_filename: ]
+[machines: ]
+[gpu_platform_id: -1]
+[gpu_device_id: -1]
+[gpu_use_dp: 0]
+[num_gpu: 1]
+
+end of parameters
+
+pandas_categorical:[["Adult", "Middle", "Senior", "Unknown", "Young"], ["Education_Media", "Management", "Other", "Professional", "Skilled_Trade", "Technical"], ["0 Years and 10 Months", "0 Years and 11 Months", "0 Years and 8 Months", "0 Years and 9 Months", "1 Years and 0 Months", "1 Years and 10 Months", "1 Years and 11 Months", "1 Years and 2 Months", "1 Years and 3 Months", "1 Years and 4 Months", "1 Years and 5 Months", "1 Years and 6 Months", "1 Years and 8 Months", "1 Years and 9 Months", "10 Years and 0 Months", "10 Years and 1 Months", "10 Years and 10 Months", "10 Years and 11 Months", "10 Years and 2 Months", "10 Years and 3 Months", "10 Years and 4 Months", "10 Years and 5 Months", "10 Years and 6 Months", "10 Years and 8 Months", "10 Years and 9 Months", "11 Years and 0 Months", "11 Years and 1 Months", "11 Years and 10 Months", "11 Years and 11 Months", "11 Years and 2 Months", "11 Years and 3 Months", "11 Years and 4 Months", "11 Years and 5 Months", "11 Years and 6 Months", "11 Years and 7 Months", "11 Years and 8 Months", "11 Years and 9 Months", "12 Years and 0 Months", "12 Years and 10 Months", "12 Years and 11 Months", "12 Years and 2 Months", "12 Years and 3 Months", "12 Years and 4 Months", "12 Years and 5 Months", "12 Years and 6 Months", "12 Years and 7 Months", "12 Years and 8 Months", "12 Years and 9 Months", "13 Years and 0 Months", "13 Years and 1 Months", "13 Years and 10 Months", "13 Years and 11 Months", "13 Years and 2 Months", "13 Years and 3 Months", "13 Years and 4 Months", "13 Years and 5 Months", "13 Years and 6 Months", "13 Years and 7 Months", "13 Years and 8 Months", "13 Years and 9 Months", "14 Years and 0 Months", "14 Years and 1 Months", "14 Years and 10 Months", "14 Years and 11 Months", "14 Years and 2 Months", "14 Years and 3 Months", "14 Years and 4 Months", "14 Years and 5 Months", "14 Years and 6 Months", "14 Years and 8 Months", "14 Years and 9 Months", "15 Years and 0 Months", "15 Years and 1 Months", "15 Years and 10 Months", "15 Years and 11 Months", "15 Years and 2 Months", "15 Years and 3 Months", "15 Years and 4 Months", "15 Years and 5 Months", "15 Years and 6 Months", "15 Years and 7 Months", "15 Years and 8 Months", "15 Years and 9 Months", "16 Years and 0 Months", "16 Years and 1 Months", "16 Years and 10 Months", "16 Years and 11 Months", "16 Years and 2 Months", "16 Years and 3 Months", "16 Years and 4 Months", "16 Years and 5 Months", "16 Years and 6 Months", "16 Years and 7 Months", "16 Years and 8 Months", "16 Years and 9 Months", "17 Years and 0 Months", "17 Years and 1 Months", "17 Years and 10 Months", "17 Years and 11 Months", "17 Years and 2 Months", "17 Years and 3 Months", "17 Years and 4 Months", "17 Years and 5 Months", "17 Years and 6 Months", "17 Years and 7 Months", "17 Years and 8 Months", "17 Years and 9 Months", "18 Years and 0 Months", "18 Years and 1 Months", "18 Years and 10 Months", "18 Years and 11 Months", "18 Years and 2 Months", "18 Years and 3 Months", "18 Years and 4 Months", "18 Years and 5 Months", "18 Years and 6 Months", "18 Years and 7 Months", "18 Years and 8 Months", "18 Years and 9 Months", "19 Years and 0 Months", "19 Years and 1 Months", "19 Years and 10 Months", "19 Years and 11 Months", "19 Years and 2 Months", "19 Years and 3 Months", "19 Years and 4 Months", "19 Years and 5 Months", "19 Years and 6 Months", "19 Years and 7 Months", "19 Years and 8 Months", "19 Years and 9 Months", "2 Years and 0 Months", "2 Years and 10 Months", "2 Years and 11 Months", "2 Years and 2 Months", "2 Years and 3 Months", "2 Years and 4 Months", "2 Years and 5 Months", "2 Years and 6 Months", "2 Years and 7 Months", "2 Years and 8 Months", "2 Years and 9 Months", "20 Years and 0 Months", "20 Years and 1 Months", "20 Years and 10 Months", "20 Years and 11 Months", "20 Years and 2 Months", "20 Years and 3 Months", "20 Years and 4 Months", "20 Years and 5 Months", "20 Years and 6 Months", "20 Years and 7 Months", "20 Years and 8 Months", "20 Years and 9 Months", "21 Years and 0 Months", "21 Years and 10 Months", "21 Years and 11 Months", "21 Years and 2 Months", "21 Years and 3 Months", "21 Years and 4 Months", "21 Years and 5 Months", "21 Years and 6 Months", "21 Years and 7 Months", "21 Years and 8 Months", "21 Years and 9 Months", "22 Years and 0 Months", "22 Years and 10 Months", "22 Years and 11 Months", "22 Years and 2 Months", "22 Years and 3 Months", "22 Years and 4 Months", "22 Years and 5 Months", "22 Years and 6 Months", "22 Years and 7 Months", "22 Years and 8 Months", "22 Years and 9 Months", "23 Years and 0 Months", "23 Years and 1 Months", "23 Years and 10 Months", "23 Years and 11 Months", "23 Years and 2 Months", "23 Years and 3 Months", "23 Years and 4 Months", "23 Years and 5 Months", "23 Years and 6 Months", "23 Years and 7 Months", "23 Years and 8 Months", "23 Years and 9 Months", "24 Years and 0 Months", "24 Years and 1 Months", "24 Years and 10 Months", "24 Years and 11 Months", "24 Years and 2 Months", "24 Years and 3 Months", "24 Years and 4 Months", "24 Years and 5 Months", "24 Years and 6 Months", "24 Years and 8 Months", "24 Years and 9 Months", "25 Years and 0 Months", "25 Years and 1 Months", "25 Years and 10 Months", "25 Years and 11 Months", "25 Years and 2 Months", "25 Years and 3 Months", "25 Years and 4 Months", "25 Years and 5 Months", "25 Years and 6 Months", "25 Years and 7 Months", "25 Years and 8 Months", "25 Years and 9 Months", "26 Years and 0 Months", "26 Years and 1 Months", "26 Years and 10 Months", "26 Years and 11 Months", "26 Years and 2 Months", "26 Years and 3 Months", "26 Years and 4 Months", "26 Years and 5 Months", "26 Years and 6 Months", "26 Years and 7 Months", "26 Years and 8 Months", "26 Years and 9 Months", "27 Years and 0 Months", "27 Years and 1 Months", "27 Years and 10 Months", "27 Years and 11 Months", "27 Years and 2 Months", "27 Years and 3 Months", "27 Years and 4 Months", "27 Years and 5 Months", "27 Years and 6 Months", "27 Years and 8 Months", "27 Years and 9 Months", "28 Years and 0 Months", "28 Years and 1 Months", "28 Years and 10 Months", "28 Years and 11 Months", "28 Years and 2 Months", "28 Years and 3 Months", "28 Years and 4 Months", "28 Years and 5 Months", "28 Years and 6 Months", "28 Years and 7 Months", "28 Years and 8 Months", "28 Years and 9 Months", "29 Years and 0 Months", "29 Years and 1 Months", "29 Years and 10 Months", "29 Years and 11 Months", "29 Years and 2 Months", "29 Years and 3 Months", "29 Years and 4 Months", "29 Years and 5 Months", "29 Years and 6 Months", "29 Years and 7 Months", "29 Years and 8 Months", "29 Years and 9 Months", "3 Years and 0 Months", "3 Years and 10 Months", "3 Years and 11 Months", "3 Years and 2 Months", "3 Years and 3 Months", "3 Years and 4 Months", "3 Years and 5 Months", "3 Years and 6 Months", "3 Years and 7 Months", "3 Years and 8 Months", "3 Years and 9 Months", "30 Years and 0 Months", "30 Years and 1 Months", "30 Years and 10 Months", "30 Years and 11 Months", "30 Years and 2 Months", "30 Years and 3 Months", "30 Years and 4 Months", "30 Years and 5 Months", "30 Years and 6 Months", "30 Years and 7 Months", "30 Years and 8 Months", "30 Years and 9 Months", "31 Years and 0 Months", "31 Years and 1 Months", "31 Years and 10 Months", "31 Years and 11 Months", "31 Years and 2 Months", "31 Years and 3 Months", "31 Years and 4 Months", "31 Years and 5 Months", "31 Years and 6 Months", "31 Years and 7 Months", "31 Years and 8 Months", "31 Years and 9 Months", "32 Years and 0 Months", "32 Years and 1 Months", "32 Years and 10 Months", "32 Years and 11 Months", "32 Years and 2 Months", "32 Years and 3 Months", "32 Years and 4 Months", "32 Years and 5 Months", "32 Years and 6 Months", "32 Years and 7 Months", "32 Years and 8 Months", "32 Years and 9 Months", "33 Years and 0 Months", "33 Years and 1 Months", "33 Years and 2 Months", "33 Years and 3 Months", "33 Years and 4 Months", "33 Years and 5 Months", "33 Years and 6 Months", "33 Years and 7 Months", "33 Years and 8 Months", "4 Years and 0 Months", "4 Years and 1 Months", "4 Years and 10 Months", "4 Years and 11 Months", "4 Years and 2 Months", "4 Years and 3 Months", "4 Years and 4 Months", "4 Years and 5 Months", "4 Years and 6 Months", "4 Years and 7 Months", "4 Years and 8 Months", "4 Years and 9 Months", "5 Years and 0 Months", "5 Years and 10 Months", "5 Years and 11 Months", "5 Years and 2 Months", "5 Years and 3 Months", "5 Years and 4 Months", "5 Years and 5 Months", "5 Years and 6 Months", "5 Years and 8 Months", "5 Years and 9 Months", "6 Years and 0 Months", "6 Years and 10 Months", "6 Years and 11 Months", "6 Years and 2 Months", "6 Years and 3 Months", "6 Years and 4 Months", "6 Years and 5 Months", "6 Years and 6 Months", "6 Years and 8 Months", "6 Years and 9 Months", "7 Years and 0 Months", "7 Years and 1 Months", "7 Years and 10 Months", "7 Years and 11 Months", "7 Years and 2 Months", "7 Years and 3 Months", "7 Years and 4 Months", "7 Years and 5 Months", "7 Years and 6 Months", "7 Years and 8 Months", "7 Years and 9 Months", "8 Years and 0 Months", "8 Years and 1 Months", "8 Years and 10 Months", "8 Years and 11 Months", "8 Years and 2 Months", "8 Years and 3 Months", "8 Years and 4 Months", "8 Years and 5 Months", "8 Years and 6 Months", "8 Years and 7 Months", "8 Years and 8 Months", "8 Years and 9 Months", "9 Years and 0 Months", "9 Years and 1 Months", "9 Years and 10 Months", "9 Years and 11 Months", "9 Years and 2 Months", "9 Years and 3 Months", "9 Years and 4 Months", "9 Years and 5 Months", "9 Years and 6 Months", "9 Years and 7 Months", "9 Years and 8 Months", "9 Years and 9 Months"], ["Very_High"]]

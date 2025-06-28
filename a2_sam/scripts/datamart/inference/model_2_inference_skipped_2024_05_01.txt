@@ -1,0 +1,5 @@
+Model 2 Inference Skipped
+Date: 2024-05-01
+Reason: LGB model not found or failed to load
+Timestamp: 2025-06-28T16:21:42.165281
+Status: SUCCESS (graceful skip)

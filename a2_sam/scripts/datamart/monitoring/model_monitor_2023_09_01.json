@@ -1,0 +1,12 @@
+{
+  "monitoring_date": "2023-09-01",
+  "evaluation_summary": {
+    "sample_size": 454,
+    "actual_positive_rate": 0.0,
+    "features_count": 24
+  },
+  "rf_performance": null,
+  "lgb_performance": null,
+  "model_comparison": null,
+  "timestamp": "2025-06-28T16:24:33.498208"
+}

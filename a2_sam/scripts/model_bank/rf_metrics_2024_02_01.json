@@ -1,0 +1,153 @@
+{
+  "auc_score": 0.706208453530666,
+  "cv_auc_mean": 0.7871662626183347,
+  "cv_auc_std": 0.023540834402437007,
+  "cv_type": "Temporal",
+  "split_info": {
+    "split_type": "temporal",
+    "split_date": "2023-12-01 00:00:00",
+    "train_period": "2023-04-01 00:00:00 to 2023-11-01 00:00:00",
+    "test_period": "2023-12-01 00:00:00 to 2024-02-01 00:00:00",
+    "train_samples": 3932,
+    "test_samples": 1492,
+    "train_target_dist": {
+      "0": 2940,
+      "1": 992
+    },
+    "test_target_dist": {
+      "0": 1407,
+      "1": 85
+    }
+  },
+  "train_samples": 3932,
+  "test_samples": 1492,
+  "n_features": 24,
+  "feature_importance": [
+    {
+      "feature": "Outstanding_Debt",
+      "importance": 0.137985762786957
+    },
+    {
+      "feature": "Interest_Rate",
+      "importance": 0.10227888485295303
+    },
+    {
+      "feature": "Delay_from_due_date",
+      "importance": 0.07949181211447168
+    },
+    {
+      "feature": "Changed_Credit_Limit",
+      "importance": 0.06092441150552002
+    },
+    {
+      "feature": "Num_Credit_Inquiries",
+      "importance": 0.060696492544967603
+    },
+    {
+      "feature": "debt_to_income_ratio",
+      "importance": 0.059583160249770846
+    },
+    {
+      "feature": "financial_risk_score",
+      "importance": 0.04082368573422575
+    },
+    {
+      "feature": "Num_Credit_Card",
+      "importance": 0.039485061597097484
+    },
+    {
+      "feature": "Num_of_Loan",
+      "importance": 0.03834479579007902
+    },
+    {
+      "feature": "Credit_History_Age",
+      "importance": 0.03379628949200235
+    },
+    {
+      "feature": "monthly_debt_service_ratio",
+      "importance": 0.03378444434034352
+    },
+    {
+      "feature": "Credit_Utilization_Ratio",
+      "importance": 0.032451467628801245
+    },
+    {
+      "feature": "Monthly_Inhand_Salary",
+      "importance": 0.030842596912938783
+    },
+    {
+      "feature": "Monthly_Balance",
+      "importance": 0.03071494899300748
+    },
+    {
+      "feature": "Annual_Income",
+      "importance": 0.03053151471870244
+    },
+    {
+      "feature": "Amount_invested_monthly",
+      "importance": 0.030401691434004095
+    },
+    {
+      "feature": "Num_of_Delayed_Payment",
+      "importance": 0.030172026450172112
+    },
+    {
+      "feature": "Num_Bank_Accounts",
+      "importance": 0.029686786724296844
+    },
+    {
+      "feature": "Total_EMI_per_month",
+      "importance": 0.029528903312698057
+    },
+    {
+      "feature": "investment_rate",
+      "importance": 0.028265201518539174
+    },
+    {
+      "feature": "Age",
+      "importance": 0.022460153459405555
+    },
+    {
+      "feature": "occupation_category",
+      "importance": 0.011257116596125685
+    },
+    {
+      "feature": "age_group",
+      "importance": 0.006492791242920249
+    },
+    {
+      "feature": "credit_utilization_category",
+      "importance": 0.0
+    }
+  ],
+  "model_type": "RandomForest",
+  "training_date": "2024-02-01",
+  "model_filename": "rf_model_2024_02_01.pkl",
+  "feature_names": [
+    "Age",
+    "age_group",
+    "occupation_category",
+    "Annual_Income",
+    "Monthly_Inhand_Salary",
+    "Num_Bank_Accounts",
+    "Num_Credit_Card",
+    "Interest_Rate",
+    "Num_of_Loan",
+    "Delay_from_due_date",
+    "Num_of_Delayed_Payment",
+    "Changed_Credit_Limit",
+    "Num_Credit_Inquiries",
+    "Outstanding_Debt",
+    "Credit_Utilization_Ratio",
+    "Credit_History_Age",
+    "Total_EMI_per_month",
+    "Amount_invested_monthly",
+    "Monthly_Balance",
+    "debt_to_income_ratio",
+    "monthly_debt_service_ratio",
+    "investment_rate",
+    "credit_utilization_category",
+    "financial_risk_score"
+  ],
+  "created_at": "2025-06-28T07:15:58.047440"
+}
